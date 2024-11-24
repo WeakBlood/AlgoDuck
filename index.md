@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
   <title> Welcome to AlgoDuck! </title>
