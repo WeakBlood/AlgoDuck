@@ -27,7 +27,7 @@ int main(){
 $ g++ -Wall -Wextra -std=gnu++17 greetings.cpp -o greetings
 $ ./greetings
 $ Hello there !!! 
-$ From: Marcello Del Fiore
+$ From: WeakBlood
 </pre>
 
 </div>
