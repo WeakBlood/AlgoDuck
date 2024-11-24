@@ -1,0 +1,2 @@
+pandoc --no-highlight -o home.html home.md
+node converter.js
