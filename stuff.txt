@@ -1,2 +1,7 @@
 pandoc --no-highlight -o home.html home.md
 node converter.js
+
+DANGEROUS
+for file in *.md; do
+  pandoc --no-highlight -o "${file%.md}.html" "$file"
+done
