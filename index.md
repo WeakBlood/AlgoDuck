@@ -1,4 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <title> Welcome to AlgoDuck! </title>
   <link rel="stylesheet" type="text/css" href="/stylesheet/style.css">
    <link rel="stylesheet" href="/stylesheet/style.css">
    <link rel="icon" type="image/png" href="/images/duck.png">
