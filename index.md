@@ -1,3 +1,4 @@
+
 <head>
 <meta charset="UTF-8">
 <title> Welcome to AlgoDuck! </title>
