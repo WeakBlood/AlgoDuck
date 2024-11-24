@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title> Welcome to AlgoDuck! </title>
-  <link rel="stylesheet" type="text/css" href="/stylesheet/style.css">
    <link rel="stylesheet" href="/stylesheet/style.css">
    <link rel="icon" type="image/png" href="/images/duck.png">
     <script src="js/highlight.min.js"></script>
 </head>
+
 
 <div style="page-break-after: always;">
 
@@ -163,8 +163,6 @@ di così tante strutture in una volta sola causerà problemi di efficienza.
 </div>
 
 </div>
-
-
 
 <script>hljs.initHighlightingOnLoad();</script>
 
