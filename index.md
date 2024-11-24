@@ -1,5 +1,4 @@
 <head>
-  <meta charset="UTF-8">
   <link rel="stylesheet" href="/stylesheet/style.css">
   <script src="js/highlight.min.js"></script>
 </head>
@@ -12,18 +11,17 @@
 
 <button onclick="window.location.href='prova.html';">Go to About Page</button>
 
-~~~cpp
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
-int main(){
+int main() {
     string Author = "WeakBlood";
     cout << "Hello there!!!" << '\n';
-    cout << "From: " << Author <<'\n';
+    cout << "From: " << Author << '\n';
     return 0;
-}
-
-~~~
+} 
+```
 
 <div style="font-size:30pt; line-height: 1.5; font-family: 'Courier New', Courier, monospace;">
 
