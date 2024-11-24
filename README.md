@@ -1,1 +1,1 @@
-# WeakBlood.github.io
+# WeakBlood
