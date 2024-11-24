@@ -12,7 +12,7 @@
 
 # Introduction to Competitive Programming
 
-<button onclick="window.location.href='Problems/ois.html';">Go to About Page</button>
+<button onclick="window.location.href='Problems/problems.html';">Go to About Page</button>
 
 ```cpp
 #include <iostream>
