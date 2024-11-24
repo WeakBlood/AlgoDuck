@@ -1,12 +1,14 @@
 <head>
-  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
-   <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheet/style.css">
+   <link rel="stylesheet" href="/stylesheet/style.css">
     <script src="js/highlight.min.js"></script>
 </head>
 
 <div style="page-break-after: always;">
 
 # Introduction to Competitive Programming
+
+<button onclick="window.location.href='Problems/problems.html';">Go to About Page</button>
 
 ~~~cpp
 #include <iostream>

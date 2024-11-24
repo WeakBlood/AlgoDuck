@@ -2,6 +2,10 @@ pandoc --no-highlight -o home.html home.md
 node converter.js
 
 DANGEROUS
-for file in *.md; do
-  pandoc --no-highlight -o "${file%.md}.html" "$file"
-done
+find . -type f -name "*.md" ! -name "README.md" -exec sh -c '
+  for file; do
+    output="${file%.md}.html"
+    pandoc --no-highlight -o "$output" "$file"
+  done
+' sh {} +
+
