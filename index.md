@@ -161,6 +161,7 @@ di così tante strutture in una volta sola causerà problemi di efficienza.
 >- Infine #ifdef è un comando riferito al compilatore, dice al computer che se il codice è eseguito con quel flag in questo caso "LOCAL" allora deve eseguire quelle cose tra #ifdef ed #endif, io solitamente aggiungo una lettura da file ma non una scrittura in modo che il risultato mi venga stampato sul terminale senza bisogno di andare ad aprire l'output.txt ogni volta.
 
 </div>
+
 </div>
 
 
