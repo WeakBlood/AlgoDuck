@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
   <title> Welcome to AlgoDuck! </title>
    <link rel="stylesheet" href="/stylesheet/style.css">
    <link rel="icon" type="image/png" href="/images/duck.png">
@@ -14,7 +13,7 @@
 
 # Introduction to Competitive Programming
 
-<button onclick="window.location.href='Problems/problems.html';">Go to About Page</button>
+<button onclick="window.location.href='prova.html';">Go to About Page</button>
 
 ~~~cpp
 #include <iostream>
