@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <title> Welcome to AlgoDuck! </title>
@@ -14,7 +11,7 @@
 
 # Introduction to Competitive Programming
 
-<button onclick="window.location.href='prova.html';">Go to About Page</button>
+<button onclick="window.location.href='Problems/ois.html';">Go to About Page</button>
 
 ```cpp
 #include <iostream>
