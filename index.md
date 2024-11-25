@@ -4,10 +4,9 @@
 <meta charset="UTF-8">
 <title>Algoduck</title>
 <link rel="stylesheet" href="/stylesheet/style.css">
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/fav/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/fav/favicon.ico" type="image/x-icon" />
 <script src="/js/highlight.min.js"></script>
-
 </head>
 
 
