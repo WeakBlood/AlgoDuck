@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Sitemap: https://algoduck.it//sitemap.xml
-Allow: /favicon.ico
+Allow: /fav/favicon.ico
