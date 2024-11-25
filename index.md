@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Algoduck</title>
-<link rel="icon" type="image/x-icon" sizes="32x32" href="favicon.ico">
-<link rel="icon" type="image/png"   href="favicon.png">
+<link rel="icon"  href="/favicon.png" sizes="32x32">
+<link rel="icon"  href="/favicon-128.png" sizes="128x128">
+<link rel="icon"  href="/favicon-256.png" sizes="256x256">
 <link rel="stylesheet" href="/stylesheet/style.css">
 <script src="/js/highlight.min.js"></script>
 </head>
