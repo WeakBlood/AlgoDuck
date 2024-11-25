@@ -17,6 +17,9 @@
 <div style="page-break-after: always;">
 
 # Introduction to Competitive Programming
+### WARNING : THE SITE IS UNDER CONSTRUCTION
+
+### STAY TUNED quack-
 
 <button onclick="window.location.href='Problems/problems.html';">Go to About Page</button>
 
