@@ -2,10 +2,12 @@
 
 <head>
 <meta charset="UTF-8">
-<title> Welcome to AlgoDuck! </title>
+<title>Algoduck</title>
 <link rel="stylesheet" href="/stylesheet/style.css">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <script src="/js/highlight.min.js"></script>
+
 </head>
 
 
