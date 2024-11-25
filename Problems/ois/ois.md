@@ -2,10 +2,9 @@
 <meta charset="UTF-8">
 <title> Welcome to AlgoDuck! </title>
 <link rel="stylesheet" href="/stylesheet/style.css">
-<link rel="icon" type="image/png" href="/images/duck.png">
-<script src="js/highlight.min.js"></script>
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<script src="/js/highlight.min.js"></script>
 </head>
-
 
 <div style="page-break-after: always;">
 

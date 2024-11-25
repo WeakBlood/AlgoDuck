@@ -4,8 +4,7 @@
 <meta charset="UTF-8">
 <title> Welcome to AlgoDuck! </title>
 <link rel="stylesheet" href="/stylesheet/style.css">
-<link rel="icon" href="/images/duck.ico" sizes="32x32" type="image/x-icon">
-<meta property="og:image" content="https://algoduck.it/images/duck.png" />
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 <script src="/js/highlight.min.js"></script>
 </head>
 
