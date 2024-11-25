@@ -1,7 +1,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>AlgoDuck</title>
+<title>Walrus Solution</title>
 <META NAME="Description" CONTENT="Wanna see some algorithms ? You came to the right place.">
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -12,6 +12,15 @@
 <script src="/js/highlight.min.js"></script>
 </head>
 
+
+<div id="navbar">
+  <div class="buttons">
+  <a href="/index.html">Home</a>
+  <a href="javascript:void(0)">Data Structures</a>
+  <a class ="active" href="/Problems/problems.html">Problems</a>
+  <a href="javascript:void(0)">Contact</a>
+  </div>
+</div>
 
 <div class="content">
 

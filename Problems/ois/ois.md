@@ -1,6 +1,6 @@
 <head>
 <meta charset="UTF-8">
-<title>AlgoDuck</title>
+<title>OIS problems</title>
 <META NAME="Description" CONTENT="Wanna see some algorithms ? You came to the right place.">
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

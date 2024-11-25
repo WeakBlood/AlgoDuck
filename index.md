@@ -31,11 +31,6 @@
 ### STAY TUNED quack-
 
 
-
-
-
-<button onclick="window.location.href='Problems/problems.html';">Go to About Page</button>
-
 ```cpp
 #include <iostream>
 #include <string>
