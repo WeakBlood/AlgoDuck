@@ -2,10 +2,10 @@
 <meta charset="UTF-8">
 <title> Welcome to AlgoDuck! </title>
 <link rel="stylesheet" href="/stylesheet/style.css">
-<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.png" type="image/png">
 <script src="/js/highlight.min.js"></script>
 </head>
-
 <div style="page-break-after: always;">
 
 # PROBLEM LISTS OIS
