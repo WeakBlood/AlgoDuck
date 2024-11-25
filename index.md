@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Algoduck</title>
-<link rel="icon" type="image/x-icon" sizes="32x32" href="fav/duck.ico">
-<link rel="icon" type="image/png" sizes="32x32"  href="fav/duck.png">
+<link rel="icon" type="image/x-icon" sizes="32x32" href="fav/fucking.ico">
+<link rel="icon" type="image/png" sizes="32x32"  href="fav/fucking.png">
 <link rel="stylesheet" href="/stylesheet/style.css">
 <script src="/js/highlight.min.js"></script>
 </head>
