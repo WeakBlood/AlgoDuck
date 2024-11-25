@@ -13,7 +13,7 @@
 </head>
 
 
-<div style="page-break-after: always;">
+<div class="content">
 
 # WALRUS SOLUTION
 

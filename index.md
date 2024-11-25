@@ -2,7 +2,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>AlgoDuck</title>
+<title>ALGODUCK</title>
 <META NAME="Description" CONTENT="Wanna see some algorithms ? You came to the right place.">
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -14,12 +14,25 @@
 </head>
 
 
-<div style="page-break-after: always;">
+<div id="navbar">
+  <div class="buttons">
+  <a class="active" href="/index.html">Home</a>
+  <a href="javascript:void(0)">Data Structures</a>
+  <a href="/Problems/problems.html">Problems</a>
+  <a href="javascript:void(0)">Contact</a>
+  </div>
+</div>
+
+<div class="content">
 
 # Introduction to Competitive Programming
 ### WARNING : THE SITE IS UNDER CONSTRUCTION
 
 ### STAY TUNED quack-
+
+
+
+
 
 <button onclick="window.location.href='Problems/problems.html';">Go to About Page</button>
 
@@ -46,7 +59,6 @@ $ From: WeakBlood
 
 </div>
 
-
 Competitive programming is a ***sport***, a mental one, you need just to write 
 some lines of c++ code, but to write those lines, you need endless preparation.
 
@@ -69,9 +81,8 @@ some lines of c++ code, but to write those lines, you need endless preparation.
 > ***"Non sarà possibile utilizzare dizionari o traduttori cartacei o in formato elettronico."*** (Art. 8 Regolamento OIS)
 
 </div>
-</div>
 
-<div style="page-break-after: always;">
+
 
 ## Per iniziare:
 Per muovere i primi passi in questo mondo ti consiglio caldamente di metterti sotto braccio una copia della [bibbia del competitive programming](https://cses.fi/book/book.pdf) essa comprende: 
@@ -113,12 +124,11 @@ Per la pratica, può essere una buona idea provare a risolvere più problemi pos
  ***Qualora dopo svariati tentativi non riuscissi proprio a trovare una soluzione, non ti preoccupare, scrivi il nome del problema specificando "CSES" alla fine della ricerca, questa ricerca ti metterà davanti a soluzioni implementate da altri utenti le quali implementazioni a primo impatto risulteranno essere scritte in arabo.***
 
 > Per le soluzioni CSES ti consiglio quindi [questa github repository molto più comprensibile](https://github.com/lorenzo-ferrari/cses/tree/main/src) miraccomando, non abusare di questa repo, ***puoi farcela anche senza***!
-
+>
 </div>
 
 Per avvicinarti allo stile delle oilimpiadi italiane comincia dai problemi sulla piattaforma ufficiale di allenamento dove [ALGOBADGE](https://training.olinfo.it/algobadge/intro) e [problemi taggati territoriali](https://training.olinfo.it/tasks/terry/1) ti offriranno una solida base.
-</div>
-<div style="page-break-after: always;">
+
 
 #### Oltre al manuale per uno studio guidato considera l'utilizzo di: 
   - [USACOGUIDE](https://usaco.guide/) ( una guida estremamente dettagliata ma con esercizi provenienti dalla piattaforma di allenamento USA)
@@ -167,7 +177,6 @@ di così tante strutture in una volta sola causerà problemi di efficienza.
 >- Infine #ifdef è un comando riferito al compilatore, dice al computer che se il codice è eseguito con quel flag in questo caso "LOCAL" allora deve eseguire quelle cose tra #ifdef ed #endif, io solitamente aggiungo una lettura da file ma non una scrittura in modo che il risultato mi venga stampato sul terminale senza bisogno di andare ad aprire l'output.txt ogni volta.
 
 </div>
-
 </div>
 
 <script>hljs.initHighlightingOnLoad();</script>

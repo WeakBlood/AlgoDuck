@@ -10,8 +10,10 @@
 <link rel="stylesheet" href="/stylesheet/style.css">
 <script src="/js/highlight.min.js"></script>
 </head>
+
+<div class="content">
+
 # PROBLEM LISTS OIS
-<button onclick="window.location.href='walrus/walrus.html';">Go to About Page</button>
 
 
 </div>

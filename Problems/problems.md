@@ -12,13 +12,7 @@
 <script src="/js/highlight.min.js"></script>
 </head>
 
-
-
-
-
-
-<div style="page-break-after: always;">
-
+<div class="content">
 # PROBLEM LISTS
 <button onclick="window.location.href='ois/ois.html';">Go to About Page</button>
 
