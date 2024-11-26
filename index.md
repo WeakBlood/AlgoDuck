@@ -42,7 +42,7 @@
 # Introduction to Competitive Programming
 
 
-## WARNING : THE SITE IS UNDER CONSTRUCTION
+## ⚠️⚠️WARNING⚠️⚠️ : THE SITE IS UNDER CONSTRUCTION👨‍💻👨‍💻
 
 ### STAY TUNED quack-
 
