@@ -31,6 +31,8 @@
 </div>
 
 [Introduction](#introduction-to-competitive-programming)
+[Getting Started](#per-iniziare)
+
 
 </div>
 </div>
