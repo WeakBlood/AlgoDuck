@@ -15,9 +15,9 @@
   <div class="buttons">
 
   ![LOGO](/duck.png)
-  <a class="active" href="/index.html">Home</a>
+  <a href="/index.html">Home</a>
   <a href="javascript:void(0)">Data Structures</a>
-  <a href="/Problems/problems.html">Problems</a>
+  <a class="active" href="/Problems/problems.html">Problems</a>
   <a href="javascript:void(0)">Contact</a>
   </div>
 </div>
@@ -27,7 +27,9 @@
 <div id="space">
 </div>
 
-[Introduction](#problem-lists-ois)
+[Introduction](#warning-the-site-is-under-construction)
+[Getting Started](#per-iniziare)
+[My Template](#il-mio-template-base)
 
 </div>
 </div>
