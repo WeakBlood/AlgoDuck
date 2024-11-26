@@ -16,6 +16,8 @@
 
 <div id="navbar">
   <div class="buttons">
+
+  ![LOGO](/duck.png)
   <a class="active" href="/index.html">Home</a>
   <a href="javascript:void(0)">Data Structures</a>
   <a href="/Problems/problems.html">Problems</a>
@@ -23,6 +25,15 @@
   </div>
 </div>
 
+<div class ="non-essential">
+<div id="right-navbar">
+<div id="space">
+</div>
+
+[Introduction](#introduction-to-competitive-programming)
+
+</div>
+</div>
 <div class="content">
 
 # Introduction to Competitive Programming
@@ -174,5 +185,6 @@ di così tante strutture in una volta sola causerà problemi di efficienza.
 </div>
 </div>
 
+<script src="/js/highlightRightNav.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 

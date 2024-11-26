@@ -105,6 +105,80 @@ pre {
 	overflow-x: hidden;
 }
 
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0; /* Aligns the navbar to the left */
+    overflow: hidden;
+    background-color: #11243b;
+    z-index: 10;
+}
+
+#navbar a,img {
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar img{
+	padding-top: 5px;
+	padding-bottom: 0px;
+	height: 40;
+}
+#navbar a:hover {
+    background-color: #070e18;
+    color: rgb(252, 252, 252);
+}
+
+#navbar a.active {
+    background-color: #0e1e33;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+    
+}
+
+@media screen and (max-width: 1300px) {
+	.non-essential {
+	  display: none;
+	}
+}
+#right-navbar {
+    position: fixed;
+    right: 100; 
+    top: 100;
+    width: 200px; 
+    background-color: #121820;
+    z-index: 10;
+    height: 100%; 
+}
+
+#right-navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#right-navbar a:hover {
+    background-color: #070e18;
+    color: rgb(252, 252, 252);
+}
+
+#right-navbar a.active {
+    background-color: #330e0e;
+    color: white;
+}
+
 pre code {
 	font-size: 8pt;
 }
@@ -231,38 +305,3 @@ code.hljs {
 .buttons{
 	margin-left: 200px;
 }
-#navbar {
-	position: fixed;
-    width: 100%;
-    top: 0;
-	margin-left: 0px;
-	overflow: hidden;
-	background-color: #11243b;
-	z-index: 10;
-
-  }
-  
-  #navbar a {
-	display: block;
-	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  #navbar a:hover {
-	background-color: #070e18;
-	color: rgb(252, 252, 252);
-  }
-  
-  #navbar a.active {
-	background-color: #0e1e33;
-	color: white;
-  }
-  
-  .content {
-	padding: 16px;
-  }
-  
