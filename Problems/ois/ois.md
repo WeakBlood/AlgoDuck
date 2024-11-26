@@ -11,6 +11,26 @@
 <script src="/js/highlight.min.js"></script>
 </head>
 
+<div id="navbar">
+  <div class="buttons">
+
+  ![LOGO](/duck.png)
+  <a class="active" href="/index.html">Home</a>
+  <a href="javascript:void(0)">Data Structures</a>
+  <a href="/Problems/problems.html">Problems</a>
+  <a href="javascript:void(0)">Contact</a>
+  </div>
+</div>
+
+<div class ="non-essential">
+<div id="right-navbar">
+<div id="space">
+</div>
+
+[Introduction](#problem-lists-ois)
+
+</div>
+</div>
 <div class="content">
 
 # PROBLEM LISTS OIS

@@ -15,13 +15,26 @@
 
 <div id="navbar">
   <div class="buttons">
-  <a href="/index.html">Home</a>
+
+  ![LOGO](/duck.png)
+  <a class="active" href="/index.html">Home</a>
   <a href="javascript:void(0)">Data Structures</a>
-  <a class ="active" href="/Problems/problems.html">Problems</a>
+  <a href="/Problems/problems.html">Problems</a>
   <a href="javascript:void(0)">Contact</a>
   </div>
 </div>
 
+<div class ="non-essential">
+<div id="right-navbar">
+<div id="space">
+</div>
+
+[Introduction](#warning-the-site-is-under-construction)
+[Getting Started](#per-iniziare)
+[My Template](#il-mio-template-base)
+
+</div>
+</div>
 <div class="content">
 # PROBLEM LISTS
 
