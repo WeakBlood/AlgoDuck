@@ -23,14 +23,41 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }, {
         root: null, // Use the viewport as the root
-        rootMargin: '0px 0px -30% 0px', // Adjust based on desired behavior
+        rootMargin: '0px 0px -15% 0px', // Adjust based on desired behavior
         threshold: 0 // Trigger whenever the element is even slightly visible
     });
 
     // Observe all sections
     sections.forEach(section => observer.observe(section));
 
-    // Fallback for when no section is visible: closest above the viewport
+    // Function to update active link
+    function updateActiveLink(id) {
+        navLinks.forEach(link => link.classList.remove('active'));
+        const activeLink = document.querySelector(`a[href="#${id}"]`);
+        if (activeLink) {
+            activeLink.classList.add('active');
+        }
+    }
+
+    // Check the position of headers on page load
+    function setInitialActiveLink() {
+        const closestSectionAbove = Array.from(sections)
+            .filter(section => section.getBoundingClientRect().bottom >= 0) // Ensure it hasn't fully scrolled out
+            .sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top)[0];
+
+        if (closestSectionAbove) {
+            const id = closestSectionAbove.id;
+            if (currentActiveId !== id) {
+                currentActiveId = id;
+                updateActiveLink(currentActiveId);
+            }
+        }
+    }
+
+    // Call the function to set the initial active link
+    setInitialActiveLink();
+
+    // Fallback for when no section is visible on scroll
     window.addEventListener('scroll', () => {
         if (currentActiveId) return; // Skip if already set by IntersectionObserver
 
@@ -47,14 +74,4 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     });
-
-    // Function to update active link
-    function updateActiveLink(id) {
-        navLinks.forEach(link => link.classList.remove('active'));
-        const activeLink = document.querySelector(`a[href="#${id}"]`);
-        if (activeLink) {
-            activeLink.classList.add('active');
-        }
-    }
 });
-``

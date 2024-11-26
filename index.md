@@ -30,7 +30,7 @@
 <div id="space">
 </div>
 
-[Introduction](#introduction-to-competitive-programming)
+[Introduction](#warning-the-site-is-under-construction)
 [Getting Started](#per-iniziare)
 [My Template](#il-mio-template-base)
 
@@ -38,8 +38,11 @@
 </div>
 <div class="content">
 
+
 # Introduction to Competitive Programming
-### WARNING : THE SITE IS UNDER CONSTRUCTION
+
+
+## WARNING : THE SITE IS UNDER CONSTRUCTION
 
 ### STAY TUNED quack-
 
