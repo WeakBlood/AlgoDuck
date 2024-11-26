@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }, {
         root: null, // Use the viewport as the root
-        rootMargin: '0px 0px -90% 0px', // Adjust based on desired behavior
+        rootMargin: '0px 0px -30% 0px', // Adjust based on desired behavior
         threshold: 0 // Trigger whenever the element is even slightly visible
     });
 
