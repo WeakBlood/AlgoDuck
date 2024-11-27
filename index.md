@@ -22,8 +22,7 @@
   <a href="javascript:void(0)">Data Structures</a>
   <a href="/Problems/problems.html">Problems</a>
   <a href="javascript:void(0)">Contact</a>
-
-  ![GITHUB](/images/github.png)
+  <img src ="/images/githubAlt1.png" alt = "githubIco">
   </div>
 </div>
 
