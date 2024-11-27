@@ -17,11 +17,13 @@
 <div id="navbar">
   <div class="buttons">
 
-  ![LOGO](/duck.png)
+  ![LOGO](/images/duck.png)
   <a class="active" href="/index.html">Home</a>
   <a href="javascript:void(0)">Data Structures</a>
   <a href="/Problems/problems.html">Problems</a>
   <a href="javascript:void(0)">Contact</a>
+
+  ![GITHUB](/images/github.png)
   </div>
 </div>
 

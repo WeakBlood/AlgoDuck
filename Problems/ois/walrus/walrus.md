@@ -39,6 +39,8 @@
 
 # WALRUS SOLUTION
 
+
+#### Time complexity is $N \; \log(N)$
 ~~~cpp
 /* WeakBlood <3 */
 #include <bits/stdc++.h>

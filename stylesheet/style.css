@@ -126,7 +126,7 @@ pre {
 #navbar a,img {
     display: block;
     float: left;
-    color: #f2f2f2;
+    color : #f6e6cc;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -138,14 +138,18 @@ pre {
 	padding-bottom: 0px;
 	height: 40;
 }
-#navbar a:hover {
+#navbar a:hover{
     background-color: #070e18;
     color: rgb(252, 252, 252);
 }
 
 #navbar a.active {
-    background-color: #0e1e33;
-    color: white;
+    background-color: #1b385c;
+    color : #f6e6cc;
+}
+
+#navbar a.active:hover{
+	background-color: #070e18;
 }
 
 .content {
@@ -170,7 +174,7 @@ pre {
 
 #right-navbar a {
     display: block;
-    color: #f2f2f2;
+    color : #f6e6cc;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
@@ -179,12 +183,12 @@ pre {
 
 #right-navbar a:hover {
     background-color: #070e18;
-    color: rgb(252, 252, 252);
+    color : #f6e6cc;
 }
 
 #right-navbar a.active {
     background-color: #0e1e33;
-    color: white;
+    color : #f6e6cc;
 }
 
 pre code {
