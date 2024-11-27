@@ -119,6 +119,10 @@ pre {
     z-index: 10;
 }
 
+#navbar .buttons{
+	margin-left: 20%;
+	margin-right:20%;
+}
 #navbar a,img {
     display: block;
     float: left;
