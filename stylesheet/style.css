@@ -199,6 +199,8 @@ pre {
 	}
 	.content{
 		width: 70%;
+		margin-left: 5%;
+		margin-right:5%;
 	}
 }
 pre code {
