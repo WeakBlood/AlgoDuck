@@ -6,7 +6,7 @@
 AlgoDuck - Competitive Programming and Algorithm Resources
 </title>
 <META NAME="Description" CONTENT="Wanna see some algorithms ? You came to the right place.">
-<link rel="canonical" href="https://algoduck.it/index.html">
+<link rel="canonical" href="https://algoduck.it/">
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="shortcut icon" href="/favicon.ico" />
