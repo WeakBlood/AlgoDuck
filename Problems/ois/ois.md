@@ -24,9 +24,17 @@ add donations, until then, enjoy this personal little mess <3 ">
   <a href="/index.html">
   <img src ="/images/duck.png" alt = "duckIco">
   </a>
-  <a href="/index.html">Home</a>
-  <a href="javascript:void(0)">Data Structures</a>
-  <a class = "active" href="/Problems/problems.html">Problems</a>
+  <a class="active" href="/index.html">Home</a>
+  <a href="javascript:void(0)" id = "Algorithms">Algorithms</a>
+<div id = "hiddenNav">
+<div class = "buttonLists">
+  <a href="javascript:void(0)">Math</a>
+  <a href="/Problems/problems.html">Data Structures</a>
+  <a href="javascript:void(0)">Graphs </a>
+  <a href=""> Strings </a>
+</div>
+</div>
+  <a href="/Problems/problems.html">MyArchive</a>
   <a href="javascript:void(0)">Contact</a>
   <a href="https://github.com/WeakBlood/AlgoDuck">
   <img src ="/images/githubAlt1.png" alt = "githubIco">
@@ -34,8 +42,6 @@ add donations, until then, enjoy this personal little mess <3 ">
   
   </div>
 </div>
-
-
 
 <div class ="non-essential">
 <div id="right-navbar">

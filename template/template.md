@@ -1,6 +1,3 @@
----
-raw_html: true
----
 <head>
 <meta charset="UTF-8">
 <title>
