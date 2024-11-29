@@ -9,7 +9,23 @@
 
 <url>
   <loc>https://algoduck.it/</loc>
-  <lastmod>2024-11-24T15:16:12+00:00</lastmod>
+  <lastmod>2024-11-29T16:55:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://algoduck.it/index.html</loc>
+  <lastmod>2024-11-29T16:55:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://algoduck.it/Problems/problems.html</loc>
+  <lastmod>2024-11-29T16:55:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://algoduck.it/Problems/ois/walrus/walrus.html</loc>
+  <lastmod>2024-11-29T16:55:57+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
