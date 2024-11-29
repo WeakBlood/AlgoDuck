@@ -13,14 +13,15 @@
 
 <div id="navbar">
   <div class="buttons">
-
-  ![LOGO](/duck.png)
+  ![LOGO](/images/duck.png)
   <a href="/index.html">Home</a>
   <a href="javascript:void(0)">Data Structures</a>
-  <a class="active" href="/Problems/problems.html">Problems</a>
+  <a class = "active" href="/Problems/problems.html">Problems</a>
   <a href="javascript:void(0)">Contact</a>
+  <img src ="/images/githubAlt1.png" alt = "githubIco">
   </div>
 </div>
+
 
 <div class ="non-essential">
 <div id="right-navbar">

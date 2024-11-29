@@ -198,9 +198,9 @@ pre {
 	  display: none;
 	}
 	.content{
-		width: 70%;
-		margin-left: 5%;
-		margin-right:5%;
+		width: 90%;
+		margin-left: 3%;
+		margin-right:3%;
 	}
 }
 pre code {
