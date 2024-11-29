@@ -5,7 +5,10 @@
 <title>
 AlgoDuck - Competitive Programming and Algorithm Resources
 </title>
-<META NAME="Description" CONTENT="Wanna see some algorithms ? You came to the right place.">
+<META NAME="Description" CONTENT="Wanna see some algorithms ? You came to the right place. 
+AlgoDuck is a project about competitive programming algorithms i'm doing on my own, why ? because i was bored, in fact 
+this site does not contain any AD or Payment Program. Maybe once it becomes a quack level site then i will 
+add donations, until then, enjoy this personal little mess <3 ">
 <link rel="canonical" href="https://algoduck.it/">
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -20,12 +23,17 @@ AlgoDuck - Competitive Programming and Algorithm Resources
 <div id="navbar">
   <div class="buttons">
 
-  ![LOGO](/images/duck.png)
+  <a href="/index.html">
+  <img src ="/images/duck.png" alt = "duckIco">
+  </a>
   <a class="active" href="/index.html">Home</a>
   <a href="javascript:void(0)">Data Structures</a>
   <a href="/Problems/problems.html">Problems</a>
   <a href="javascript:void(0)">Contact</a>
+  <a href="https://github.com/WeakBlood/AlgoDuck">
   <img src ="/images/githubAlt1.png" alt = "githubIco">
+  </a>
+  
   </div>
 </div>
 

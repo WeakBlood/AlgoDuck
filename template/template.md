@@ -16,28 +16,53 @@ add donations, until then, enjoy this personal little mess <3 ">
 <link rel="stylesheet" href="/stylesheet/style.css">
 <script src="/js/highlight.min.js"></script>
 </head>
+
+
 <div id="navbar">
-<div class="buttons">
-<p><a href="/index.html"> <img src ="/images/duck.png" alt = "duckIco">
-</a> <a href="/index.html">Home</a> <a href="javascript:void(0)">Data
-Structures</a>
-<a class = "active" href="/Problems/problems.html">Problems</a>
-<a href="javascript:void(0)">Contact</a>
-<a href="https://github.com/WeakBlood/AlgoDuck">
-<img src ="/images/githubAlt1.png" alt = "githubIco"> </a></p>
+  <div class="buttons">
+
+  <a href="/index.html">
+  <img src ="/images/duck.png" alt = "duckIco">
+  </a>
+  <a class="active" href="/index.html">Home</a>
+  <a href="javascript:void(0)">Data Structures</a>
+  <a href="/Problems/problems.html">Problems</a>
+  <a href="javascript:void(0)">Contact</a>
+  <a href="https://github.com/WeakBlood/AlgoDuck">
+  <img src ="/images/githubAlt1.png" alt = "githubIco">
+  </a>
+  
+  </div>
 </div>
-</div>
-<div class="non-essential">
+
+<div class ="non-essential">
 <div id="right-navbar">
 <div id="space">
+</div>
+
+[Introduction](#warning-the-site-is-under-construction)
+[Getting Started](#per-iniziare)
+[My Template](#il-mio-template-base)
 
 </div>
-<p><a href="#warning-the-site-is-under-construction">Introduction</a> <a
-href="#per-iniziare">Getting Started</a> <a
-href="#il-mio-template-base">My Template</a></p>
 </div>
+
+<div class="content">
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    string Author = "WeakBlood";
+    cout << "Hello there!!!" << '\n';
+    cout << "From: " << Author << '\n';
+    return 0;
+} 
+```
+
 </div>
-<section id="problem-lists-ois" class="content">
-<h1>PROBLEM LISTS OIS</h1>
-</section>
+
+
+<script src="/js/highlightRightNav.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>

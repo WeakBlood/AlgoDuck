@@ -141,7 +141,7 @@ pre {
 #navbar img{
 	padding-top: 5px;
 	padding-bottom: 0px;
-	height: 60;
+	height: 50;
 }
 #navbar a:hover{
     background-color: #070e18;
@@ -167,8 +167,8 @@ pre {
     position: fixed;
 	margin-right: 10%;
 	margin-left: 10%;
-    right: 100; 
-    top: 100;
+    right: 100px;
+    top: 13%;
     width: 200px; 
     background-color: #121820;
     z-index: 10;
