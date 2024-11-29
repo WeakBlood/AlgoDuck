@@ -1,6 +1,6 @@
 html{
 	scroll-behavior: smooth;
-	scroll-padding-top: 50px;
+	scroll-padding-top: 30%;
 }
 
 img {
@@ -200,6 +200,7 @@ pre {
 	}
 	.content{
 		width: 97%;
+		margin-top: 10%;
 		margin-left: 0%;
 		margin-right:0%;
 	}
