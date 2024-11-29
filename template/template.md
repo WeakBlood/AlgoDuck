@@ -25,7 +25,7 @@ add donations, until then, enjoy this personal little mess <3 ">
   <img src ="/images/duck.png" alt = "duckIco">
   </a>
   <a class="active" href="/index.html">Home</a>
-  <a href="javascript:void(0)" id = "Algorithms">Algorithms</a>
+  <button id = "Algorithms"> Algorithms </button>
 <div id = "hiddenNav">
 <div class = "buttonLists">
   <a href="javascript:void(0)">Math</a>

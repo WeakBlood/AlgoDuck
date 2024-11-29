@@ -75,3 +75,34 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("Algorithms");
+    const hiddenNav = document.getElementById("hiddenNav");
+  
+    // Toggle dropdown menu on click
+    button.addEventListener("click", function (event) {
+      event.stopPropagation(); // Prevent closing immediately due to document listener
+      if (hiddenNav.classList.contains("show")) {
+        hiddenNav.classList.remove("show");
+      } else {
+        hiddenNav.classList.add("show");
+      }
+    });
+  
+    // Close dropdown when clicking anywhere else
+    document.addEventListener("click", function (event) {
+      if (!hiddenNav.contains(event.target) && !button.contains(event.target)) {
+        hiddenNav.classList.remove("show");
+      }
+    });
+  
+    // Optional: Keep dropdown open on hover
+    hiddenNav.addEventListener("mouseenter", function () {
+      hiddenNav.classList.add("show");
+    });
+  
+    hiddenNav.addEventListener("mouseleave", function () {
+      hiddenNav.classList.remove("show");
+    });
+  });

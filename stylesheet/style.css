@@ -129,7 +129,7 @@ pre {
 	margin-right:20%;
 }
 
-#navbar a,img {
+#navbar a,img,button{
     display: block;
     float: left;
     color : #f6e6cc;
@@ -138,7 +138,10 @@ pre {
 	margin-left: 1%;
     text-decoration: none;
     font-size: 20pt;
+	background-color:#11243b;
+	border: none;
 }
+
 
 #navbar img{
 	padding-top: 0px;
@@ -172,7 +175,14 @@ pre {
     transition: opacity 0.3s ease; /* Smooth transition */
 }
 
-#Algorithms:hover + #hiddenNav, #hiddenNav:hover{
+#hiddenNav.show{
+	display: block;
+	opacity: 1; /* Make it visible */
+	transition: opacity 0.3s ease; /* Smooth transition */
+    pointer-events: auto; /* Allow interactions when visible */
+}
+
+#Algorithms:hover + #hiddenNav{
 	display: block;
 	opacity: 1; /* Make it visible */
 	transition: opacity 0.3s ease; /* Smooth transition */
