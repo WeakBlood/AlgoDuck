@@ -127,6 +127,7 @@ pre {
 	margin-left: 20%;
 	margin-right:20%;
 }
+
 #navbar a,img {
     display: block;
     float: left;
@@ -134,13 +135,13 @@ pre {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20pt;
 }
 
 #navbar img{
 	padding-top: 5px;
 	padding-bottom: 0px;
-	height: 40;
+	height: 60;
 }
 #navbar a:hover{
     background-color: #070e18;
