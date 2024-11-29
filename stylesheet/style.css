@@ -2,6 +2,7 @@ html{
 	scroll-behavior: smooth;
 	scroll-padding-top: 50px;
 }
+
 img {
 	max-width: 100%;
 }
@@ -160,11 +161,7 @@ pre {
     
 }
 
-@media screen and (max-width: 1450px) {
-	.non-essential {
-	  display: none;
-	}
-}
+
 #right-navbar {
     position: fixed;
 	margin-right: 10%;
@@ -196,6 +193,14 @@ pre {
     color : #f6e6cc;
 }
 
+@media screen and (max-width: 1450px) {
+	.non-essential {
+	  display: none;
+	}
+	.content{
+		width: 70%;
+	}
+}
 pre code {
 	font-size: 8pt;
 }
