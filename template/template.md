@@ -1,3 +1,6 @@
+---
+raw_html: true
+---
 <head>
 <meta charset="UTF-8">
 <title>
@@ -25,7 +28,15 @@ add donations, until then, enjoy this personal little mess <3 ">
   <img src ="/images/duck.png" alt = "duckIco">
   </a>
   <a class="active" href="/index.html">Home</a>
-  <a href="javascript:void(0)">Algorithms</a>
+  <a href="javascript:void(0)" id = "Algorithms">Algorithms</a>
+<div id = "hiddenNav">
+<div class = "buttonLists">
+  <a href="javascript:void(0)">Math</a>
+  <a href="/Problems/problems.html">Data Structures</a>
+  <a href="javascript:void(0)">Graphs </a>
+  <a href=""> Strings </a>
+</div>
+</div>
   <a href="/Problems/problems.html">MyArchive</a>
   <a href="javascript:void(0)">Contact</a>
   <a href="https://github.com/WeakBlood/AlgoDuck">
@@ -34,6 +45,7 @@ add donations, until then, enjoy this personal little mess <3 ">
   
   </div>
 </div>
+
 
 <div class ="non-essential">
 <div id="right-navbar">

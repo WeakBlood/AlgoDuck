@@ -115,12 +115,13 @@ pre {
 
 #navbar {
     position: fixed;
+	z-index: 10;
     width: 100%;
     top: 0;
     left: 0; /* Aligns the navbar to the left */
     overflow: hidden;
     background-color: #11243b;
-    z-index: 10;
+    
 }
 
 #navbar .buttons{
@@ -133,13 +134,14 @@ pre {
     float: left;
     color : #f6e6cc;
     text-align: center;
-    padding: 14px 16px;
+    padding: 7px 16px;
+	margin-left: 1%;
     text-decoration: none;
     font-size: 20pt;
 }
 
 #navbar img{
-	padding-top: 5px;
+	padding-top: 0px;
 	padding-bottom: 0px;
 	height: 50;
 }
@@ -157,11 +159,43 @@ pre {
 	background-color: #070e18;
 }
 
+#hiddenNav{
+	display: block;
+	position: fixed;
+    width: 100%;
+    top:7%;
+    overflow: hidden;
+	z-index: 1;
+	background-color: #11243b36;
+	pointer-events: none; /* Ensure it doesn't block interactions when hidden */
+    opacity: 0; /* Hidden state */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+#Algorithms:hover + #hiddenNav, #hiddenNav:hover{
+	display: block;
+	opacity: 1; /* Make it visible */
+	transition: opacity 0.3s ease; /* Smooth transition */
+    pointer-events: auto; /* Allow interactions when visible */
+}
+.buttonList a{
+	display: block;
+    float: left;
+    color : #f6e6cc;
+    text-align: center;
+
+	margin-left: 10%;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+.buttonList a:hover{
+	background-color: #070e18;
+}
 .content {
     padding: 16px;
     
 }
-
 
 #right-navbar {
     position: fixed;
@@ -171,7 +205,7 @@ pre {
     top: 13%;
     width: 200px; 
     background-color: #121820;
-    z-index: 10;
+    z-index: 3;
     height: 100%; 
 }
 

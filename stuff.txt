@@ -5,7 +5,7 @@ DANGEROUS
 find . -type f -name "*.md" ! -name "README.md" -exec sh -c '
   for file; do
     output="${file%.md}.html"
-    pandoc  --no-highlight   -o "$output" "$file"
+    pandoc  --no-highlight -o "$output" "$file"
   done
 ' sh {} +
 
