@@ -60,7 +60,7 @@ int main() {
 } 
 ```
 
-<div style="font-size:30pt; line-height: 1.5; font-family: 'Courier New', Courier, monospace;">
+<div>
 
 <pre style="font-size:12pt; line-height: 1.5;">
 $ g++ -Wall -Wextra -std=gnu++17 greetings.cpp -o greetings
@@ -74,7 +74,7 @@ $ From: WeakBlood
 Competitive programming is a ***sport***, a mental one, you need just to write 
 some lines of c++ code, but to write those lines, you need endless preparation.
 
-***Se questo può sembrare simile al processo di risoluzione di un problema matematico è perchè ogni problema di questo tipo ha una o più soluzioni, e la loro correttezza può essere dimostrata matematicamente!***  
+***If this can seem similar to the solving process of a class mathematical problem, it's because it is!***  
 
 ## Requisiti:
 
