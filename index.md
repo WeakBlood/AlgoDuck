@@ -8,11 +8,12 @@ AlgoDuck is a project about competitive programming algorithms i'm doing on my o
 this site does not contain any AD or Payment Program. Maybe once it becomes a quack level site then i will 
 add donations, until then, enjoy this personal little mess <3 ">
 <link rel="canonical" href="https://algoduck.it/">
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/site.webmanifest" />
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="/stylesheet/style.css">
 <script src="/js/highlight.min.js"></script>
 </head>
