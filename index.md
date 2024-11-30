@@ -52,7 +52,7 @@ add donations, until then, enjoy this personal little mess <3 ">
 </div>
 
 [Introduction](#warning-the-site-is-under-construction)
-[Getting Started](#per-iniziare)
+[Getting Started](#getting-started)
 [My Template](#il-mio-template-base)
 
 </div>
@@ -91,35 +91,30 @@ $ From: WeakBlood
 
 </div>
 
-This site is meant to help any of you that wants to learn some simple or more complex algorithms and with this project i also help ***myself*** 
-***If this can seem similar to the solving process of a class mathematical problem, it's because it is!***  
+This site is meant to help anyone who wants to learn some simple or more complex algorithms and with this project i also help ***myself*** by forcing to find 
+a good explanation for some concepts.
 
-## Requisiti:
+## Getting Started:
 
- - Conoscenza base della lingua inglese poichè: Manuali, descrizione del problema e dispense di ogni tipo saranno gran parte delle volte disponibili ***SOLO IN INGLESE***, ed una traduzione letterale del linguaggio tecnico (come quella di google translate, strumento per giunta proibito dal [regolamento](https://drive.google.com/file/d/13te3l83j3q-u_q7Gp0YybwvLwH33KOgY/view)) spesso porterà ad ***incomprensioni.***
+- You will need decent English knowledge (like mine, which is kind of shit) because handbooks, problem descriptions (in case you are solving ICPC, IOI, CF, etc.), and most general resources will be translated in English. In some contests, like IOI, the use of translation tools is strictly prohibited, but still not knowing the language 
+will keep you at a disadvantage.
   
- - Conoscenza di concetti base dell'aritmetica e della geometria, quando dico di base, lo intendo, non ti servirà risolvere integrali o mettere a sistema qualche variabile.
+ - Knowing basics algebra and geometry concepts.
 
- - Spirito competitivo.
+ - Being competitive.
   
- - Una mascotte. ( Fondamentale per la buona riuscita del contest)
+ - A mascotte. ( it's mandatory for good scores in contests and for trying out [RUBBER DUCK DEBUGGING](https://en.wikipedia.org/wiki/Rubber_duck_debugging))
   
- - Tanta, molta, moltissima pazienza, ma credimi, è una soddisfazione, come tutte le attività alle quali si dedica molto tempo ;)
+ - Last but not least, patience, you will need much, much, too much patience, like everything else, it takes ***time*** to grasp these concepts.
   
-<div style="font-size: 10px;">
 
-> ***"Non sarà possibile utilizzare dizionari o traduttori cartacei o in formato elettronico."*** (Art. 8 Regolamento OIS)
+For moving your first steps into the competitive programming world you *will* need this handbook ( which i personally call:) [The Bible of Competitive Programming](https://cses.fi/book/book.pdf).
 
-</div>
+It contains: 
 
-
-
-## Per iniziare:
-Per muovere i primi passi in questo mondo ti consiglio caldamente di metterti sotto braccio una copia della [bibbia del competitive programming](https://cses.fi/book/book.pdf) essa comprende: 
-
-- Introduzione al competitive programming e funzionamento della STL.
+- An introduction to the cp world and basics of STL library.
   
-- Strutture dati fondamentali.
+- Almost all of the data structures you will ever need in your cp career.
   
 - Greedy Techniques.
   
@@ -131,61 +126,65 @@ Per muovere i primi passi in questo mondo ti consiglio caldamente di metterti so
 
 <div style="font-size:9pt">
 
-> Il non conoscere i termini che ho appena utilizzato è perfettamente normale, giusto per spiegarteli al volo: 
+> If you don't know the meaning of some of the terms mentioned earlier, don't worry, i gotch u: 
 
- - STL: Immagina che C++ ti dia una scatola piena di strumenti (vettori, liste, code, pile e tanto altro) che ti aiutano a risolvere rapidamente diversi tipi di problemi senza doverli reinventare da zero.
+ - STL: It's a C++ library, C++ gives a box full of pre-coded tools like (vectors, lists, queues, stacks, ordering algorithms and much more ), by using these tools 
+you will save lots of time and also preserve your mental health.
 
- - Le tecnica greedy segue un semplice esempio: Pensa a una persona che, in un viaggio, prende sempre la decisione più vantaggiosa al momento, senza considerare cosa potrebbe essere meglio nel lungo termine. Alcuni problemi sono strutturati in modo che questo ragionamento funzioni sempre, altri invece, richiederanno accorgimenti ulteriori.
+ - Greedy algorithms follow a simple logic, choose always the option that seems better in that moment, 
+even if that means losing a future opportunity. 
+
   
- - Teoria dei grafi è uno degli argomenti più intriganti del competitive programming, si basa su Nodi (punti, non geometrici) ed Archi (collegamenti tra di essi) dovrai spesso esplorare le proprietà di essi ( distanza tra due o più Nodi, percorsi tra nodi aventi proprietà particolari etc ) ti servirà decisamente un quaderno per risolvere i problemi di questa categoria ;)
-  
- - Dynamic programming è una versione perfetta della tecnica greedy menzionata prima, con il dynamic programming si intende costruire la soluzione partendo da uno o più casi base/assunzioni.
+ - Graphs theory, it's by far my favorite topic, it is not a technique it self, but it allows you to see some problems under a comptely different prespective.
+In graphs theory you will have Vertexes which will act as cities or points you can reach, the Edges on the other hand are simply the connections made between each Vertex.
+(Two cities are two Vertexes, if from city A you can reach city B this means that there is at least one edge between the two).
+
+ - Dynamic programming is a perfected version of the Greedy strategy, with some assumptions and base cases, you will be able to *construct* a *perfect solution*.
 </div>
 
+For starting doing some pratice, you can sign up to and try to solve as many problems as possible most of which will be easily solvable by reading the early mentioned [The Bible of Competitive Programming](https://cses.fi/book/book.pdf). [CSES](https://cses.fi/problemset/).
 
-
-Tale testo deve essere inteso come un manuale, ogni volta che leggi un problema prova a vedere se una delle tecniche di [questo handbook](https://cses.fi/book/book.pdf) può essere applicata nella soluzione e poi prova ad implementarla!
-
-Per la pratica, può essere una buona idea provare a risolvere più problemi possibili del noto problem set [CSES](https://cses.fi/problemset/).
 <div style="font-size: 13px;">
 
-> ***GRAN PARTE DEI PROBLEMI PRESENTI IN QUESTO PROBLEMSET SONO RISOLVIBILI CON UNA LETTURA ATTENTA DEL MANUALE, CERCA DI RESISTERE ALLA TENTAZIONE DI LEGGERE LE SOLUZIONI IMMEDIATAMENTE, SOLO CON LA PAZIENZA MIGLIORERAI GIORNO DOPO GIORNO!***
+> ***EVEN IF YOU ARE NOT ABLE TO INSTANTLY GET TO A SOLUTION RIGHT, KEEP PUSHING, KEEP TRYING, YOU WILL IMPROVE QUICKLY BY NOT GIVING UP EASILY. ***
 
- ***Qualora dopo svariati tentativi non riuscissi proprio a trovare una soluzione, non ti preoccupare, scrivi il nome del problema specificando "CSES" alla fine della ricerca, questa ricerca ti metterà davanti a soluzioni implementate da altri utenti le quali implementazioni a primo impatto risulteranno essere scritte in arabo.***
+> ***This does not mean that you should stay on a single problem for weeks, but at your discretion understand when you are completely stalled an start reading some parts of the solution, if still nothing comes to your mind then read the full solution and try as hard as you can to understand it.***
 
-> Per le soluzioni CSES ti consiglio quindi [questa github repository molto più comprensibile](https://github.com/lorenzo-ferrari/cses/tree/main/src) miraccomando, non abusare di questa repo, ***puoi farcela anche senza***!
+> For CSES solutions i would recommend this well made repository of an Italian OII champion, [GITHUB SOLUTION](https://github.com/lorenzo-ferrari/cses/tree/main/src) do not abuse this repo. ***You got this!***
 >
 </div>
 
-Per avvicinarti allo stile delle oilimpiadi italiane comincia dai problemi sulla piattaforma ufficiale di allenamento dove [ALGOBADGE](https://training.olinfo.it/algobadge/intro) e [problemi taggati territoriali](https://training.olinfo.it/tasks/terry/1) ti offriranno una solida base.
 
 
-#### Oltre al manuale per uno studio guidato considera l'utilizzo di: 
-  - [USACOGUIDE](https://usaco.guide/) ( una guida estremamente dettagliata ma con esercizi provenienti dalla piattaforma di allenamento USA)
+#### Here are some great platforms for competitive programming: 
+  - [USACOGUIDE](https://usaco.guide/) ( an extremely detailed and on point guide with all the needed topics. )
   
-  - [CSES](https://cses.fi/problemset/) ( il problem set completo menzionato prima, le spiegazioni dei problemi si trovano con estrema facilità sul web)
+  - [CSES](https://cses.fi/problemset/) ( problem set mentioned above. )
 
-  - [LEETCODE](https://leetcode.com/) ( just kidding, da questo stanne alla larga, non c'è bisogno di spendere soldi per accedere al sapere :)
+  - [LEETCODE](https://leetcode.com/) ( just kidding, stay away from this, at least for the pricey useless features, remember: 
+***YOU WILL NEVER HAVE TO PAY SOMEONE ON THE INTERNET FOR GETTING  THIS KIND OF KNOwLEDGE.*** )
 
-  - [CODEFORCES BLOGS](https://codeforces.com/) ( estremamente dispersivo ma pieno di gemme preziose ed implementazioni mozzafiatto di alcuni ***red coder.*** )
+  - [CODEFORCES BLOGS](https://codeforces.com/) ( the best of the best for any experience range competitive programmer, full of precious blogs made by ***red coders.*** )
+  ( The only drawback is that it can be really inconsistent.)
   
-  - [WIKI/OLINFO](https://wiki.olinfo.it/) (anche questo non segue alcun filo logico ma andando in alcune cartelle OII si troverà una cartella "stage" in essa sono contenute lezioni completamente in italiano su tecniche di base ma anche tecniche molto complesse.)
+  - [WIKI/OLINFO](https://wiki.olinfo.it/) (A LITTLE GEM FROM MY COUNTRY, FULL OF COOL TOPICS AND IMPLEMENTATIONS)
+  (Drawback: Is completely written in italian XD )
 
 
-### Il mio template base: 
+### A simple template: 
 
 ~~~cpp
-#include <bits/stdc++.h> // includo la libreria menzionata prima
+#include <bits/stdc++.h> // including the header stl mentioned earlier
 
-#define ll long long int // creo qualche macro per abbreviare
+#define ll long long int // setting some macros for fast writing 
 #define inf 1e9
 using namespace std; 
 
 int main(){
-    ios_base::sync_with_stdio(false); // questa e la linea dopo 
-    cin.tie(NULL);// servono per ottimizzare le operazione di input/output
-    #ifdef LOCAL // comandi al compilatore 
-    ifstream cin("input.txt"); // lettura da file 
+    ios_base::sync_with_stdio(false); // this and the other line will speed up I/O operations
+    cin.tie(NULL);
+    #ifdef LOCAL // compiler command for executing parts of code only locally 
+    ifstream cin("input.txt"); // reading by file.txt 
     #endif
     return 0;
 }
@@ -193,18 +192,16 @@ int main(){
 ~~~
 <div style="font-size:8pt;">
 
->Nel template:
+>In this template:
 
- >- Includo la libreria STL menzionata prima in modo da avere a disposizione molte strutture dati, raramente l'inclusione 
-di così tante strutture in una volta sola causerà problemi di efficienza. 
+ >- I am adding the library for getting lots of pre-coded algorithms out of the box, the library it self is *not* an heavyweight library.
 
->- Aggiungo i define che mi consentono di rinominare determinate scritture per esempio ogni volta che scriverò "ll" sarà per il codice come se avessi scritto "long long int" il punto di questo è un guadagno ingente di velocità di scrittura.
+>- I am adding macros "#define" that allows me to write a custom shortcut for simplicity and speed. ( You can even create macros with arguments ).
   
->- La namespace mi serve per evitare di aggiungere prima dell'utilizzo di funzioni provenienti dalle libraria la dicitura "std::" la quale è decisamente scomoda.
+>- The namespace std; allows me to skip the syntax needed before using any element from a library for example vector without it would be std::vector<> instead of 
+vector<> 
   
->- Nel main ho aggiunto un paio di righe che ottimizzano le operazioni I/O, credimi, fanno la differenza quelle due linee in termini di velocità di lettura e scrittura.
-  
->- Infine #ifdef è un comando riferito al compilatore, dice al computer che se il codice è eseguito con quel flag in questo caso "LOCAL" allora deve eseguire quelle cose tra #ifdef ed #endif, io solitamente aggiungo una lettura da file ma non una scrittura in modo che il risultato mi venga stampato sul terminale senza bisogno di andare ad aprire l'output.txt ogni volta.
+>- In the main function, i added some lines for fast I/O and check if the code is being compiled locally or not which is a really useful thing for debugging.
 
 </div>
 </div>
