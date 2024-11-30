@@ -53,7 +53,7 @@ add donations, until then, enjoy this personal little mess <3 ">
 
 [Introduction](#warning-the-site-is-under-construction)
 [Getting Started](#getting-started)
-[My Template](#il-mio-template-base)
+[My Template](#a-simple-template)
 
 </div>
 </div>
