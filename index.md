@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang = "en">
 <head>
 <meta charset="UTF-8">
 <title>
@@ -18,7 +20,7 @@ add donations, until then, enjoy this personal little mess <3 ">
 <script src="/js/highlight.min.js"></script>
 </head>
 
-
+<body>
 <div id="navbar">
   <div class="buttons">
 
@@ -89,9 +91,7 @@ $ From: WeakBlood
 
 </div>
 
-Competitive programming is a ***sport***, a mental one, you need just to write 
-some lines of c++ code, but to write those lines, you need endless preparation.
-
+This site is meant to help any of you that wants to learn some simple or more complex algorithms and with this project i also help ***myself*** 
 ***If this can seem similar to the solving process of a class mathematical problem, it's because it is!***  
 
 ## Requisiti:
@@ -208,7 +208,7 @@ di così tante strutture in una volta sola causerà problemi di efficienza.
 
 </div>
 </div>
-
+</body>
 <script src="/js/highlightRightNav.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-
+</html>

@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang = "en">
 <head>
 <meta charset="UTF-8">
 <title>
@@ -17,7 +19,7 @@ add donations, until then, enjoy this personal little mess <3 ">
 <script src="/js/highlight.min.js"></script>
 </head>
 
-
+<body>
 <div id="navbar">
   <div class="buttons">
 
@@ -72,6 +74,7 @@ int main() {
 
 </div>
 
-
+</body>
 <script src="/js/highlightRightNav.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+</html>

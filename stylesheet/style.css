@@ -250,7 +250,7 @@ pre {
 	}
 }
 pre code {
-	font-size: 8pt;
+	font-size: 10pt;
 }
 
 .thumb { 
@@ -268,7 +268,7 @@ code.hljs {
 }
 
 .hljs {
-	color: #abb2bf;
+	color : #C9C9C9FF;
 	background: #282c34
 }
 
