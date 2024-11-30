@@ -268,7 +268,7 @@ code.hljs {
 }
 
 .hljs {
-	color : #C9C9C9FF;
+	color : rgb(255, 255, 255);
 	background: #282c34
 }
 
