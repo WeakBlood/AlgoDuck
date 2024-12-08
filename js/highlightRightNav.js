@@ -80,7 +80,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.addEventListener("click", function (event) {
             if (!hiddenNav.contains(event.target) && !button.contains(event.target)) {
-                hiddenNav.classList.remove("show");
+                hideTimeout = setTimeout(function () {
+                    hiddenNav.classList.remove("show");
+                }, 300); 
             }
         });
 
@@ -89,7 +91,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         hiddenNav.addEventListener("mouseleave", function () {
-            hiddenNav.classList.remove("show");
+            hideTimeout = setTimeout(function () {
+                hiddenNav.classList.remove("show");
+            }, 300); 
         });
     }
 });
