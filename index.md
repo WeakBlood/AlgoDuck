@@ -18,34 +18,12 @@ add donations, until then, enjoy this personal little mess <3 ">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="/stylesheet/style.css">
 <script src="/js/highlight.min.js"></script>
+<script src="/js/highlightRightNav.js"></script>
 </head>
 
 <body>
-<div id="navbar">
-  <div class="buttons">
-
-  <a href="/index.html">
-  <img src ="/images/duck.png" alt = "duckIco">
-  </a>
-  <a class="active" href="/index.html">Home</a>
-  <a href="javascript:void(0)" id = "Algorithms">Algorithms</a>
-<div id = "hiddenNav">
-<div class = "buttonLists">
-  <a href="javascript:void(0)">Math</a>
-  <a href="/Problems/problems.html">Data Structures</a>
-  <a href="javascript:void(0)">Graphs </a>
-  <a href=""> Strings </a>
+<div id= "navbar">
 </div>
-</div>
-  <a href="/Problems/problems.html">MyArchive</a>
-  <a href="javascript:void(0)">Contact</a>
-  <a href="https://github.com/WeakBlood/AlgoDuck">
-  <img src ="/images/githubAlt1.png" alt = "githubIco">
-  </a>
-  
-  </div>
-</div>
-
 <div class ="non-essential">
 <div id="right-navbar">
 <div id="space">
@@ -206,6 +184,5 @@ vector<>
 </div>
 </div>
 </body>
-<script src="/js/highlightRightNav.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </html>
