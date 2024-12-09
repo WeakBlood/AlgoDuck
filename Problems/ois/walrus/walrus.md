@@ -107,5 +107,10 @@ int main(){
 
 </div>
 </body>
+<footer>
+
+Algoduck © 2024 by WeakBlood is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>.
+
+</footer>
 <script>hljs.initHighlightingOnLoad();</script>
 

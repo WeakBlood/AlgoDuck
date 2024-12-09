@@ -35,6 +35,13 @@ body {
 	background: #121820;
 }
 
+footer {
+	text-align: center;
+	padding-top: 5%;
+	padding-right: 15%;
+	color : #f6e6cc;
+}
+
 .content{
 	text-align: left;
 	margin-left: 17%;

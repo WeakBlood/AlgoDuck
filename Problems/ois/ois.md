@@ -21,6 +21,7 @@ add donations, until then, enjoy this personal little mess <3 ">
 <script src="/js/highlightRightNav.js"></script>
 </head>
 
+<body>
 <div id= "navbar">
 </div>
 <div class ="non-essential">
@@ -40,5 +41,11 @@ add donations, until then, enjoy this personal little mess <3 ">
 
 
 </div>
+</body>
+<footer>
+
+Algoduck © 2024 by WeakBlood is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>.
+
+</footer>
 <script>hljs.initHighlightingOnLoad();</script>
 
