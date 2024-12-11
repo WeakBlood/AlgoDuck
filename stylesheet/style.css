@@ -134,8 +134,8 @@ pre {
 }
 
 #navbar .buttons{
-	margin-left: 20%;
-	margin-right:20%;
+	margin-left: 15%;
+	margin-right:15%;
 }
 
 #navbar a,img,button{
@@ -148,7 +148,6 @@ pre {
 	padding-right: 3%;
 	padding-top: 1%;
 	margin-left: 1%;
-    text-decoration: none;
     font-size: 20pt;
 	background-color:#11243b;
 	border: none;
@@ -182,13 +181,15 @@ pre {
 	margin-top: 0%;
 	padding-top: 0%;
     overflow: hidden;
-	z-index: 11;
+	z-index: 15;
 	background-color: #11243b36;
 	pointer-events: none; /* Ensure it doesn't block interactions when hidden */
     opacity: 0; /* Hidden state */
     transition: opacity 0.3s ease; /* Smooth transition */
 }
-
+#hiddenNav a{
+	font-size: 12pt;
+}
 #hiddenNav.show{
 	display: block;
 	opacity: 1; /* Make it visible */
