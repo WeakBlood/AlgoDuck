@@ -38,8 +38,12 @@ add donations, until then, enjoy this personal little mess <3 ">
 <div class="content">
 
 # Sparse Table
+
 A sparse table is a very powerful data structure that allows 
-us to perform most of range queries in ***$O(logN)$*** with a ***preprocessing of only $O(N \;logN)$***
+us to perform most of range queries in ***$O(logN)$*** with a ***preprocessing of only $O(N \;logN)$***, the big deal comes from the ***$O(1)$*** 
+minimum and maximum queries which is much harder to achieve with any other data 
+structure. 
+
 
 ~~~cpp
 /* WeakBlood <3 */

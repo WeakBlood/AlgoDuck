@@ -84,7 +84,7 @@ button::-moz-focus-inner { border: 0; padding: 1px; }
 span.amp { font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif; font-weight: normal; font-style: italic; font-size: 1.2em; line-height: 0.8; }
 
 h1,h2,h3,h4,h5,h6 { 
-
+	color : #f6ca84;
 	margin-top: 20px;
 	text-align:center;
     line-height: 1.1; 

@@ -40,7 +40,11 @@ href="#a-simple-template">My Template</a></p>
 perform most of range queries in <strong><em><span
 class="math inline"><em>O</em>(<em>l</em><em>o</em><em>g</em><em>N</em>)</span></em></strong>
 with a <strong><em>preprocessing of only <span
-class="math inline"><em>O</em>(<em>N</em> <em>l</em><em>o</em><em>g</em><em>N</em>)</span></em></strong></p>
+class="math inline"><em>O</em>(<em>N</em> <em>l</em><em>o</em><em>g</em><em>N</em>)</span></em></strong>,
+the big deal comes from the <strong><em><span
+class="math inline"><em>O</em>(1)</span></em></strong> minimum and
+maximum queries which is much harder to achieve with any other data
+structure.</p>
 <pre class="cpp"><code>/* WeakBlood &lt;3 */
 struct SparseTable{
     // fucking fast query
