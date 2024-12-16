@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+&lt;!DOCTYPE html&gt;
 <html lang = "en">
 <head>
 <meta charset="UTF-8">
@@ -20,50 +20,47 @@ add donations, until then, enjoy this personal little mess <3 ">
 <script src="/js/highlight.min.js"></script>
 <script src="/js/highlightRightNav.js"></script>
 </head>
-
 <body>
-<div id= "navbar">
+<div id="navbar">
+
 </div>
-<div class ="non-essential">
+<div class="non-essential">
 <div id="right-navbar">
 <div id="space">
-</div>
-
-[Introduction](#warning-the-site-is-under-construction)
-[Getting Started](#getting-started)
-[My Template](#a-simple-template)
 
 </div>
+<p><a href="#warning-the-site-is-under-construction">Introduction</a> <a
+href="#getting-started">Getting Started</a> <a
+href="#a-simple-template">My Template</a></p>
 </div>
-<div class="content">
-
-# Sparse Table
-A sparse table is a very powerful data structure that allows 
-us to perform most of range queries in $O(N \;log N)$
-
-~~~cpp
-/* WeakBlood <3 */
+</div>
+<section id="sparse-table" class="content">
+<h1>Sparse Table</h1>
+<p>A sparse table is a very powerful data structure that allows us to
+perform most of range queries in <span
+class="math inline"><em>O</em>(<em>n</em> <em>l</em><em>o</em><em>g</em><em>n</em>)</span></p>
+<pre class="cpp"><code>/* WeakBlood &lt;3 */
 struct SparseTable{
     // fucking fast query
-    vector<vector<int>> table;
-    vector<vector<int>> id;
-    SparseTable(int N, vector<int> &arr){
+    vector&lt;vector&lt;int&gt;&gt; table;
+    vector&lt;vector&lt;int&gt;&gt; id;
+    SparseTable(int N, vector&lt;int&gt; &amp;arr){
         int log = log2(N) + 1;
-        table.resize(N,vector<int>(log));
-        id.resize(N,vector<int>(log));
-        for(int i = 0; i < N; i++){
+        table.resize(N,vector&lt;int&gt;(log));
+        id.resize(N,vector&lt;int&gt;(log));
+        for(int i = 0; i &lt; N; i++){
             table[i][0] = arr[i];
             id[i][0] = i;
         }
 
-        for(int j = 1; j < log; j++){
-            for(int i = 0; i + (1 << j) <= N; i++){
-                if(table[i][j-1] < table[i+(1 << (j-1))][j-1]){
+        for(int j = 1; j &lt; log; j++){
+            for(int i = 0; i + (1 &lt;&lt; j) &lt;= N; i++){
+                if(table[i][j-1] &lt; table[i+(1 &lt;&lt; (j-1))][j-1]){
                     table[i][j] = table[i][j-1];
                     id[i][j] = id[i][j-1];
                 } else{
-                    table[i][j] = table[i+(1 << (j-1))][j-1];
-                    id[i][j] = id[i+(1 << (j-1))][j-1];
+                    table[i][j] = table[i+(1 &lt;&lt; (j-1))][j-1];
+                    id[i][j] = id[i+(1 &lt;&lt; (j-1))][j-1];
                 }
             }
         }
@@ -71,22 +68,20 @@ struct SparseTable{
 
     int query(int l, int r){
         int j = log2(r-l+1);
-        if(table[l][j]  < table[r - (1 << j) + 1][j]){
+        if(table[l][j]  &lt; table[r - (1 &lt;&lt; j) + 1][j]){
             return id[l][j];
         } else{
-            return id[r - (1 << j) + 1][j];
+            return id[r - (1 &lt;&lt; j) + 1][j];
         }
     }
 };
-
-~~~
-</div>
-
+</code></pre>
+</section>
 </body>
 <footer>
-
-Algoduck © 2024 by WeakBlood is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>.
-
+<p>Algoduck © 2024 by WeakBlood is licensed under
+<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC
+BY-NC 4.0</a>.</p>
 </footer>
 <script>hljs.initHighlightingOnLoad();</script>
 </html>
