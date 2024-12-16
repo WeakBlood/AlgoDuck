@@ -39,7 +39,7 @@ add donations, until then, enjoy this personal little mess <3 ">
 
 # Sparse Table
 A sparse table is a very powerful data structure that allows 
-us to perform most of range queries in $O(N \;log N)$
+us to perform most of range queries in ***$O(logN)$*** with a ***preprocessing of only $O(N \;logN)$***
 
 ~~~cpp
 /* WeakBlood <3 */
