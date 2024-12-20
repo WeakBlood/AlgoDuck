@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>
-Introduction to Data Structures
+Sorting&Searching-AlgoDuck
 </title>
 <META NAME="Description" CONTENT="Wanna see some algorithms ? You came to the right place. 
 AlgoDuck is a project about competitive programming algorithms i'm doing on my own, why ? because i was bored, in fact 
