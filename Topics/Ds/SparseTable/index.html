@@ -37,17 +37,18 @@ href="#a-simple-template">My Template</a></p>
 <section id="sparse-table" class="content">
 <h1>Sparse Table</h1>
 <p>A sparse table is a very powerful data structure that allows us to
-perform most of range queries in <strong><em><span
+perform many classic <strong><em>static</em></strong> range queries in
+<strong><em><span
 class="math inline"><em>O</em>(<em>l</em><em>o</em><em>g</em><em>N</em>)</span></em></strong>
 with a <strong><em>preprocessing of only <span
 class="math inline"><em>O</em>(<em>N</em> <em>l</em><em>o</em><em>g</em><em>N</em>)</span></em></strong>,
-the big deal comes from the <strong><em><span
-class="math inline"><em>O</em>(1)</span></em></strong> minimum and
-maximum queries which is much harder to achieve with any other data
-structure.</p>
+the best thing about it is that it find min/max in any given range of an
+array in only <strong><em><span
+class="math inline"><em>O</em>(1)</span></em></strong></p>
+<h3 id="the-implementetion-i-use">The implementetion i use:</h3>
 <pre class="cpp"><code>/* WeakBlood &lt;3 */
 struct SparseTable{
-    // fucking fast query
+    // blazing fast queries
     vector&lt;vector&lt;int&gt;&gt; table;
     vector&lt;vector&lt;int&gt;&gt; id;
     SparseTable(int N, vector&lt;int&gt; &amp;arr){
@@ -82,6 +83,11 @@ struct SparseTable{
     }
 };
 </code></pre>
+<p>The code above also implements the “id” vector which gives out the
+<strong><em>index</em></strong> of the maximum/minimum term in the given
+range, i usually add it because i get more flexibility from it, in
+scenarios when the main focus is not just finding the max/min in a range
+[l,r] .</p>
 </section>
 </body>
 <footer>
