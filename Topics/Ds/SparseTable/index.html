@@ -41,9 +41,9 @@ perform many classic <strong><em>static</em></strong> range queries in
 <strong><em><span
 class="math inline"><em>O</em>(<em>l</em><em>o</em><em>g</em><em>N</em>)</span></em></strong>
 with a <strong><em>preprocessing of only <span
-class="math inline"><em>O</em>(<em>N</em> <em>l</em><em>o</em><em>g</em><em>N</em>)</span></em></strong>,
-the best thing about it is that it find min/max in any given range of an
-array in only <strong><em><span
+class="math inline"><em>O</em>(<em>N</em><em>l</em><em>o</em><em>g</em><em>N</em>)</span></em></strong>,
+the best thing about it is that it finds the min/max value in a range in
+only <strong><em><span
 class="math inline"><em>O</em>(1)</span></em></strong></p>
 <h3 id="the-implementetion-i-use">The implementetion i use:</h3>
 <pre class="cpp"><code>/* WeakBlood &lt;3 */
@@ -83,11 +83,12 @@ struct SparseTable{
     }
 };
 </code></pre>
-<p>The code above also implements the “id” vector which gives out the
-<strong><em>index</em></strong> of the maximum/minimum term in the given
-range, i usually add it because i get more flexibility from it, in
-scenarios when the main focus is not just finding the max/min in a range
-[l,r] .</p>
+<p>The code above implements the “id” vector which gives out the
+<strong><em>index</em></strong> of the maximum/minimum term in any given
+range in <strong><em><span
+class="math inline"><em>O</em>(1)</span></em></strong> , i usually add
+it because it gives more more flexibility to it, in scenarios when the
+main focus is not just finding the max/min in a range [l,r] .</p>
 </section>
 </body>
 <footer>

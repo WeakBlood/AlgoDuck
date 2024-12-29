@@ -37,6 +37,23 @@ add donations, until then, enjoy this personal little mess <3 ">
 </div>
 <div class="content">
 
+### Data Structures
+
+Data structures are ***fundamental*** when it comes to programming—they're everywhere, coming in various forms and names.<br>
+Without them, we'd be lost. From a simple vector<> to more complex structures like the "just for the meme" [Li Chao Tree](https://codeforces.com/blog/entry/86731) (kudos to this amazing blog!), I’ll guide you through each one I know.
+
+They enable us to store data efficiently, associate values with keys, perform powerful range queries, build graphs, and much, much, much more. Let’s dive in and explore!
+Here is a summary: 
+
+- Essentials: 
+    - [Vector]() store and retrieve data in ***$O(1)$*** with it's index.
+    - List 
+    - Queue
+    - Stack
+
+- Range-Queries:
+    - [SparseTable](/Topics/Ds/SparseTable/index.html) min/max static queries in ***$O(1)$***.
+  
 </div>
 
 </body>

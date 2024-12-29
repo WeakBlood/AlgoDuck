@@ -40,8 +40,9 @@ add donations, until then, enjoy this personal little mess <3 ">
 # Sparse Table
 
 A sparse table is a very powerful data structure that allows 
-us to perform many classic ***static*** range queries in ***$O(logN)$*** with a ***preprocessing of only $O(N \;logN)$***, the best thing about it is that 
-it find min/max in any given range of an array in only  ***$O(1)$*** 
+us to perform many classic ***static*** range queries in ***$O(logN)$*** 
+with a ***preprocessing of only $O(N logN)$***, the best thing about it is that 
+it finds the min/max value in a range in only  ***$O(1)$*** 
 
 
 ### The implementetion i use:
@@ -86,8 +87,8 @@ struct SparseTable{
 
 ~~~
 
-The code above also implements the "id" vector which gives out the ***index*** of the maximum/minimum term
-in the given range, i usually add it because i get more flexibility from it, in scenarios when the main focus is not just finding
+The code above implements the "id" vector which gives out the ***index*** of the maximum/minimum term
+in any given range in ***$O(1)$*** , i usually add it because it gives more more flexibility to it, in scenarios when the main focus is not just finding
 the max/min in a range [l,r] .
 
 </div>
